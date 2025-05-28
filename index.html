@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Simple Homepage - Alarado | devChallenges.io</title>
+  <script type="text/javascript" src="darkmode.js" defer></script>
+</head>
+
+<body>
+  <nav class="header-desktop">
+    <div id="logo-header">
+        <div class="logo"></div>
+      </div>
+    <input type="checkbox" id="sidebar-active" style="padding-left: 30px;">
+    <label for="sidebar-active" class="open-sidebar-button">
+      <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e3e3e3">
+        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+      </svg>
+    </label>
+    <label id="overlay" for="sidebar-active"></label>
+    <div class="links-container">
+      <label for="sidebar-active" class="close-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41
+              10.59 12 5 17.59 6.41 19 12 13.41
+              17.59 19 19 17.59 13.41 12z"/>
+        </svg>
+      </label>
+      <a href="#about" class="home-link">Home</a>
+      <a href="#about">About us</a>
+      <a href="#product">Product</a>
+      <a href="#resource">Resource</a>
+      <a href="#contact">Contact</a></>
+
+      <div id="change-theme">
+        <input type="checkbox" id="check">
+        <label for="check" class="button">
+          <!-- Tema claro -->
+          <img src="resources/Moon_fill_light.svg" alt="moon light" class="icon moon-light" id="moon">
+          <img src="resources/Sun_fill.svg" alt="sun light" class="icon sun-light" id="sun">
+
+          <!-- Tema escuro -->
+          <img src="resources/Moon_fill.svg" alt="moon dark" class="icon moon-dark" id="moon">
+          <img src="resources/Sun_fill_light.svg" alt="sun dark" class="icon sun-dark" id="sun">
+        </label>
+      </div>
+    </div>
+
+
+
+
+  </nav>
+
+  </nav>
+  <div class="wrapper">
+    <picture>
+      <!-- alternativa mobile -->
+      <source media="(max-width: 768px)" srcset="resources/hero-image-simple-homepage@2x.png" />
+      <!-- fallback (desktop) -->
+      <img src="resources/hero-image-simple-homepage.png" alt="Main illustration" />
+    </picture>
+
+    <main class="content">
+      <p id="p-content">😎 SIMPLE WAY TO COMMUNICATE</p>
+
+      <p id="p-main">Actions for <br> Accessibility <br> in Design</p>
+
+      <p id="p-end-content">The fastest way to build and deploy websites with reusable <br> components.</p>
+
+      <div class="buttons">
+        <button id="get-started">
+          GET STARTED
+        </button>
+        <button id="get-demo">
+          Get live demo
+        </button>
+      </div>
+
+      <div class="no-requirements">
+        <img src="resources/Done_ring_round_fill.svg" alt="a done svg">
+        <p>No credit card required</p>
+        <img src="resources/Done_ring_round_fill.svg" alt="a done svg">
+        <p>No software to install</p>
+      </div>
+
+    </main>
+  </div>
+
+
+  <div class="author-info">
+    Coded by <a href="https://github.com/HenriqueBorgesProg" target="_blank"> Henrique Borges </a> | Challenge by
+    <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
