@@ -18,7 +18,7 @@ Uma homepage responsiva com suporte a modo claro/escuro, construída como parte 
 
 ## 🎥 Demonstração
 
-Aqui está o vídeo do funcionamento do projeto
+Aqui está o vídeo do funcionamento do projeto, Clique na Imagem!
 
 [![Demo do Projeto](https://github.com/user-attachments/assets/2aed8bf1-75bc-4ddb-b8a1-2db390d12654)](https://youtu.be/czSmC4hqBYY)
 
