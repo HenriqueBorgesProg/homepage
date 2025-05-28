@@ -259,6 +259,12 @@ body.darkmode .moon-dark {
     flex-direction: column;
   }
 
+  #get-started:active,
+  #get-demo:active {
+    background-color: var(--hover-text);
+    color: var(--base-color);
+  }
+
   .author-info {
     margin-right: auto;
   }
@@ -322,15 +328,19 @@ body.darkmode .moon-dark {
   .no-requirements {
     font-size: 0.625rem;
   }
+
   #logo-header {
     padding-left: 20px;
   }
+
   .wrapper {
     padding-left: 20px;
   }
+
   #change-theme {
     margin-right: 45px;
   }
+
   .author-info {
     font-size: 0.675rem;
   }
